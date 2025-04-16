@@ -1,13 +1,13 @@
 # HALF_ADDER_SUBTRACTOR
 
-Implementation-of-Half-Adder-and-Half Subtractor-circuit
-
+Implementation-of-Half-Adder-and-//Half Subtractor-circuit
+dd
 **AIM:**
 
 To design a half adder and half subtractor circuit and verify its truth table in Quartus using Verilog programming.
 
 **Equipments Required:**
-
+///////////////
 Hardware – PCs, Cyclone II , USB flasher 
 
 Software – Quartus prime Theory Adders are digital circuits that carry out the addition of numbers.
@@ -34,6 +34,11 @@ Borrow = A’B
 Figure -02 HALF Subtractor
 
 **Truthtable**
+half adder
+![half adder trurth](https://github.com/user-attachments/assets/610de5b8-9336-44dd-8a58-694af93f727d)
+
+half sub
+![half sub truth](https://github.com/user-attachments/assets/d7d7ae1e-610e-4786-9720-74f201620242)
 
 **Procedure**
 
@@ -52,10 +57,40 @@ Figure -02 HALF Subtractor
 
 /* Program to design a half adder and full adder circuit and verify its truth table in quartus using Verilog programming.
 
-Developed by: RegisterNumber:*/
-
+Developed by: 
+RegisterNumber: 212224240103
+Name:B.Naveen sairam
+```
+*half subractor:
+ module ex3halfsub(A,B,D,BO);
+ input A,B;
+ output D,BO;
+ xor(D,A,B);
+ and(BO,~A,B);
+ endmodule
+*half adder:
+ module experiment(A,B,C,S)
+ input A,B
+ output S,C
+ xor (S,A,B);
+ and (C,A,B);
+ endmodule
+```
 **RTL Schematic**
+# half adder
+![half adder](https://github.com/user-attachments/assets/f4ff7e04-95e4-4e14-997f-583e866591ca)
+
+# half subractor
+![half sub](https://github.com/user-attachments/assets/a3016de9-c652-470e-96a6-2e58c1dba5da)
+
 
 **Output/TIMING Waveform**
+half adder wave
+![half add wave](https://github.com/user-attachments/assets/48870abf-0b8a-46bb-8f12-91cc8cd3bbb3)
+
+half subractor
+![half sub wave](https://github.com/user-attachments/assets/6408d763-92dd-46c1-85e9-f203aab169a9)
 
 **Result:**
+The code is excecuted successfully.
+
