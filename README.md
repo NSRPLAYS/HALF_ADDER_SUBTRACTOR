@@ -89,5 +89,5 @@ Name:B.Naveen sairam
 ![half sub wave](https://github.com/user-attachments/assets/996486c6-aa59-4867-bb81-85fea16cc748)
 
 
-**Result:**
+# **Result:**
 The code is excecuted successfully.
