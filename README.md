@@ -34,6 +34,11 @@ Borrow = A’B
 Figure -02 HALF Subtractor
 
 **Truthtable**
+# half adder:
+![half adder trurth](https://github.com/user-attachments/assets/9b5aa9d6-480f-4a31-9f63-f56242a84495)
+
+# half subractor:
+![half subrac](https://github.com/user-attachments/assets/1bcdd7cd-6dbd-468b-b21e-34072ee158ba)
 
 **Procedure**
 
@@ -52,10 +57,37 @@ Figure -02 HALF Subtractor
 
 /* Program to design a half adder and full adder circuit and verify its truth table in quartus using Verilog programming.
 
-Developed by: RegisterNumber:*/
-
+Developed by:
+RegisterNumber:212224240103
+Name:B.Naveen sairam
+```
+* half adder
+  module experiment(A,B,C,S)
+  input A,B
+  output S,C
+  xor (S,A,B);
+  and (C,A,B);
+  endmodule
+*half subractor
+ module ex3halfsub(A,B,D,BO);
+ input A,B;
+ output D,BO;
+ xor(D,A,B);
+ and(BO,~A,B);
+ endmodule
+```
 **RTL Schematic**
+# half adder:
+![half adder](https://github.com/user-attachments/assets/c8965f49-0e91-4f8b-8ade-6646be07ef60)
+# half subractor:
+![half sub](https://github.com/user-attachments/assets/8dd7e17b-1ab1-458d-a92a-83eec0c95d8e)
 
 **Output/TIMING Waveform**
+# half adder:
+![half add wave](https://github.com/user-attachments/assets/2ffb79e4-2d7c-4b8d-a6ff-2af6b5ad51a7)
+# half subractor:
+![half sub wave](https://github.com/user-attachments/assets/996486c6-aa59-4867-bb81-85fea16cc748)
+
 
 **Result:**
+The code is excecuted successfully.
